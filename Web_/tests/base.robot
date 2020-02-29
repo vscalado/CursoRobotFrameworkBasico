@@ -8,5 +8,6 @@ ${url}              https://training-wheels-protocol.herokuapp.com
 Nova Sessão
     Open Browser                    ${url}             chrome
 
-Encerra Sessão 
+Encerra Sessão
+    Capture Page Screenshot
     Close Browser
